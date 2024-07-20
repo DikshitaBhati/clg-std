@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location Selection</title>
+    <link rel="stylesheet" href="css/in.css">
+</head>
+<body>
+    <header>
+        <h1>Career Guidance App on the Go</h1>
+    </header>
+
+    <main>
+        <section class="form-section">
+            <div class="form-card">
+                <h2>Location Selection</h2>
+                <form id="locationForm">
+                    <label for="country">Choose a country:</label>
+                    <select id="country" required>
+                        <option value="">Select a country</option>
+                        <option value="india">India</option>
+                        <option value="usa">USA</option>
+                        <option value="uk">UK</option>
+                        <option value="australia">Australia</option>
+                    </select>
+
+                    <label for="location">Choose a location:</label>
+                    <select id="location" required>
+                        <option value="">Select a location</option>
+                    </select>
+                    <button type="submit" class="auth-button">Next</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Career Guidance App on the Go. All rights reserved.</p>
+    </footer>
+
+    <!-- Include Firebase SDK and Config -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-database.js"></script>
+    <script src="js/firebase-config.js"></script>
+    <script src="js/location-selection.js"></script>
+</body>
+</html>

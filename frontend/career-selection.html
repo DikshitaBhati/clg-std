@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Selection</title>
+    <link rel="stylesheet" href="css/in.css">
+</head>
+<body>
+    <header>
+        <h1>Career Guidance App on the Go</h1>
+    </header>
+
+    <main>
+        <section class="form-section">
+            <div class="form-card">
+                <h2>Career Selection</h2>
+                <form id="careerForm">
+                    <label for="career">Choose a career:</label>
+                    <select id="career" required>
+                        <option value="engineering">Engineering</option>
+                        <option value="management">Management</option>
+                        <option value="law">Law</option>
+                        <option value="computer">Computer Science</option>
+                        <option value="journalism">Journalism</option>
+                        <!-- Add more options as needed -->
+                    </select>
+                    <button type="submit" class="auth-button">Next</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Career Guidance App on the Go. All rights reserved.</p>
+    </footer>
+
+    <!-- Include Firebase SDK and Config -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-database.js"></script>
+    <script src="js/firebase-config.js"></script>
+    <script src="js/career-selection.js"></script>
+</body>
+</html>

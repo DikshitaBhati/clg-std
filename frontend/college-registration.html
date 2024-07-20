@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Registration</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Career Guidance App on the Go</h1>
+    </header>
+
+    <main>
+        <section class="registration-section">
+            <h2>College Registration</h2>
+            <form id="registrationForm" class="registration-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" required>
+                <label for="address">Address:</label>
+                <input type="text" id="address" required>
+                <button type="submit" class="register-button">Register</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Career Guidance App on the Go. All rights reserved.</p>
+    </footer>
+
+    <!-- Include Firebase SDK and Config -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-database.js"></script>
+    <script src="js/firebase-config.js"></script>
+    <script src="js/college-registration.js"></script>
+</body>
+</html>

@@ -1,0 +1,334 @@
+/* Reset some default styles */
+body, h1, h2, p, form, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header styling */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Main content styling */
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Authentication section styling */
+.auth-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1200px;
+}
+
+/* Individual authentication card styling */
+.auth-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+}
+
+.auth-card img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+/* Button styling */
+.auth-button {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    text-decoration: none;
+    width: 100px;
+}
+
+.auth-button:hover {
+    background-color: #45a049;
+}
+
+/* Form input styling */
+form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+/* Footer styling */
+footer {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+
+nav ul {background-color: #575757;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    
+    color: hsl(240, 67%, 99%);
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: hwb(217 15% 0%);
+    border-radius: 5px;
+}
+
+/* Welcome section styling */
+#welcome {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#welcome h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#welcome p {
+    font-size: 1.2em;
+}
+/* Form section styling */
+.form-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 140px); /* Adjust based on header and footer height */
+}
+
+.form-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+.form-card h2 {
+    margin-bottom: 20px;
+}
+
+.form-card label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.form-card select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-card button {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+.form-card button:hover {
+    background-color: #45a049;
+}
+/* Details section styling */
+.details-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.details-section h2 {
+    margin-bottom: 20px;
+}
+
+.college-details {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+.college-details h3 {
+    margin-top: 0;
+}
+
+.college-details p {
+    margin: 5px 0;
+}
+
+.register-button {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.register-button:hover {
+    background-color: #45a049;
+}
+/* Registration section styling */
+.registration-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.registration-section h2 {
+    margin-bottom: 20px;
+}
+
+.registration-form {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.registration-form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.registration-form input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.register-button {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+    text-decoration: none;
+    width: 100%;
+}
+
+.register-button:hover {
+    background-color: #45a049;
+}
+/* Details section styling */
+.details-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.details-section h2 {
+    margin-bottom: 20px;
+}
+
+.details-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+
+.details-card p {
+    margin: 10px 0;
+}
+
+.start-test-button {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+    text-decoration: none;
+    width: 200px;
+    text-align: center;
+}
+
+.start-test-button:hover {
+    background-color: #45a049;
+}

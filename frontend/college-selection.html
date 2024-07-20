@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Selection</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Career Guidance App on the Go</h1>
+    </header>
+
+    <main>
+        <section class="details-section">
+            <h2>College Details</h2>
+            <div id="collegeDetails" class="college-details"></div>
+            <button class="register-button" onclick="register()">Register</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Career Guidance App on the Go. All rights reserved.</p>
+    </footer>
+
+    <!-- Include Firebase SDK and Config -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-database.js"></script>
+    <script src="js/firebase-config.js"></script>
+    <script src="js/college-selection.js"></script>
+</body>
+</html>
