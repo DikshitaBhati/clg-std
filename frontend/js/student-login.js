@@ -6,7 +6,7 @@ document.getElementById('studentLoginForm').addEventListener('submit', function 
     firebase.auth().signInWithEmailAndPassword(email, password)
         .then((userCredential) => {
             // Student logged in
-            window.location.href = "student-dashbaord.html"; // Redirect to student dashboard
+            window.location.href = "frontend/student-dashboard.html"; // Redirect to student dashboard
         })
         .catch((error) => {
             var errorMessage = document.getElementById('error-message');

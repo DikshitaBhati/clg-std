@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome, <span id="studentName">Student</span></h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="career-selection.html">Career Selection</a></li>
+            <li><a href="location-selection.html">Location Selection</a></li>
+            <li><a href="college-list.html">College List</a></li>
+            <li><a href="student-details.html">Profile/Student Details</a></li>
+            <li><a href="aptitude-test.html">Aptitude Test</a></li>
+            <li><a href="#" id="logoutButton">Logout</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="welcome">
+            <img src="images/student.jpeg" alt="Student Image">
+            <p>Explore your future with us! Check out various career options, find the best colleges, and take the aptitude test to know your strengths.</p>
+        </section>
+        <section class="notifications">
+            <h2>Recent Activity</h2>
+            <ul id="recentActivity">
+                <li>No recent activity</li>
+            </ul>
+        </section>
+    </main>
+
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-database.js"></script>
+    <script src="js/firebase-config.js"></script>
+    <script src="js/student-dashboard.js"></script>
+</body>
+</html>

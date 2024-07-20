@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome, <span id="collegeName">College Representative</span></h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="profile-management.html">Profile Management</a></li>
+            <li><a href="student-applications.html">Student Applications</a></li>
+            <li><a href="messages.html">Messages/Notifications</a></li>
+            <li><a href="#" id="logoutButton">Logout</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="welcome">
+            <img src="images/college.jpg" alt="College Image">
+            <p>Manage your profile, view student applications, and stay updated with the latest messages and notifications.</p>
+        </section>
+        <section class="notifications">
+            <h2>Recent Activity</h2>
+            <ul id="recentActivity">
+                <li>No recent activity</li>
+            </ul>
+        </section>
+    </main>
+
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-database.js"></script>
+    <script src="js/firebase-config.js"></script>
+    <script src="js/college-dashboard.js"></script>
+</body>
+</html>
